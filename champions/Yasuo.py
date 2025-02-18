@@ -12,5 +12,5 @@ class Yasuo(Champion): # Void kế thừa từ Champion
     def cast_skill_r(self):
         return self.skill
     def cast_skill_e(self):
-        E = 'Sweeping Blade'
-        return E
+        e = 'Sweeping Blade'
+        return e
