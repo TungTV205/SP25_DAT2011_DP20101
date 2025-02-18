@@ -4,10 +4,13 @@ class Yasuo(Champion): # Void kế thừa từ Champion
         super().__init__("Yasuo", "Say Bye")
 
     def cast_skill_q(self):
-        print('q is Stell Tempest')
+        Q = 'Stell Tempest'
+        return Q
     def cast_skill_w(self):
-        print('w is Wind Wall')
+        W = 'Wind Wall'
+        return W
     def cast_skill_r(self):
-        print('r is Sweeping Blade')
+        return self.skill
     def cast_skill_e(self):
-        print(f'e is {skill}')
+        E = 'Sweeping Blade'
+        return E
